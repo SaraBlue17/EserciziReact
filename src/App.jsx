@@ -2,7 +2,7 @@ import HelloWorld from "./HelloWorld";
 import Welcome from "./Welcome";
 
 const name = "Clara";
-const age = "24";
+const age = 24;
 
 export default function App() {
   return (
