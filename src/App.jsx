@@ -2,6 +2,7 @@ import React from "react";
 import HelloWorld from "./HelloWorld";
 import Welcome from "./Welcome";
 import AlertClock from "./AlertClock";
+import Counter from "./Counter";
 
 const name = "Clara";
 const age = 24;
@@ -18,6 +19,7 @@ export default function App() {
       <HelloWorld />
       <Welcome name={name} age={age} />
       <AlertClock onClick={handleButtonClick} />
+      <Counter initialValue={0} incrementAmount={1} />
     </div>
   );
 }
