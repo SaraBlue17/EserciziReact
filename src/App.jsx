@@ -1,6 +1,6 @@
-import HelloWord from "./HelloWorld";
+import HelloWorld from "./HelloWorld";
 
 export default function App() {
-return(<HelloWord/>)
+return(<HelloWorld/>)
 }
 
