@@ -4,7 +4,7 @@ import MessageAge from "./MessageAge";
 export default function Welcome({ name, age }) {
   return (
     <div>
-      <p>
+      <p className="welcome">
         Welcome, <strong>{name}!</strong>
       </p>
       <Age age={age} />

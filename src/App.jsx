@@ -5,6 +5,7 @@ import AlertClock from "./AlertClock";
 import Counter from "./Counter";
 import Clock from "./Clock";
 import MouseClicker from "./MouseClicker";
+import Login from "./Login";
 
 const name = "Clara";
 const age = 24;
@@ -24,6 +25,7 @@ export default function App() {
       <Counter initialValue={0} incrementAmount={1} />
       <Clock/>
       <MouseClicker/>
+      <Login/>
     </div>
   );
 }

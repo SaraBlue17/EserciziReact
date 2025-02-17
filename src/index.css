@@ -1,1 +1,29 @@
 @import "tailwindcss";
+
+.welcome {
+  background-color: rgba(255, 134, 134, 0.435);
+  border: 2px solid rgba(147, 0, 105, 0.495);
+  border-radius: 20px;
+  padding: 6px;
+}
+
+.counter {
+  font-size: 30px;
+  font-weight: 500;
+  color: purple;
+  inline-size: 400px;
+}
+
+.login-button-valid {
+  background-color: rgba(255, 134, 134, 0.435);
+  border: 2px solid rgba(147, 0, 105, 0.495);
+  border-radius: 20px;
+  padding: 6px;
+}
+
+.login-button {
+  background-color: rgba(147, 0, 105, 0.495);
+  border: 2px solid rgba(147, 0, 105, 0.495);
+  border-radius: 20px;
+  padding: 6px;
+}
